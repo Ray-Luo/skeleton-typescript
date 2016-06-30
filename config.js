@@ -27,10 +27,15 @@ System.config({
     "aurelia-templating-binding": "npm:aurelia-templating-binding@1.0.0-rc.1.0.0",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-rc.1.0.0",
     "aurelia-templating-router": "npm:aurelia-templating-router@1.0.0-rc.1.0.0",
+    "benib/aurelia-leaflet": "github:benib/aurelia-leaflet@0.1.2",
     "bootstrap": "github:twbs/bootstrap@3.3.6",
     "fetch": "github:github/fetch@1.0.0",
     "font-awesome": "npm:font-awesome@4.6.3",
+    "leaflet": "github:Leaflet/Leaflet@0.7.7",
     "text": "github:systemjs/plugin-text@0.0.8",
+    "github:benib/aurelia-leaflet@0.1.2": {
+      "leaflet": "github:Leaflet/Leaflet@0.7.7"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
